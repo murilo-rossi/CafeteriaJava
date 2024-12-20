@@ -1,0 +1,32 @@
+Abaixo estão as instruções para executar o aplicativo no navegador utilizando a ferramenta Webswing, o código está disponível na pasta "Projeto"
+
+IMPORTANTE: O Webswing não funciona com o JDK 23, use a versão 21 ou anterior
+
+1)
+Baixe o Webswing no site https://www.webswing.org/en
+
+2)
+Descompacte o arquivo zip
+
+3)
+Substitua o arquivo "webswing.config" presente na pasta descompactada pelo arquivo presente nessa pasta
+Adicione a pasta "Cafeteria" dentro da pasta "apps" do Webswing
+
+4)
+Windows: execute o arquivo "webswing.bat"
+Linux: execute o arquivo "webswing.sh"
+
+
+Caso o Webswing solicite credenciais:
+Usuário: admin
+Senha: pwd
+
+Caso o navegador não abra automaticamente após alguns segundos, os aplicativos devem estar nos endereços:
+http://localhost:8080/  - Menu do Webswing
+http://localhost:8080/cafeteriacliente/ - Menu do cliente
+http://localhost:8080/cafeteriagerente/ - Menu do gerente
+
+5)
+Selecione o aplicativo desejado
+
+Senha do aplicativo do gerente: admin
